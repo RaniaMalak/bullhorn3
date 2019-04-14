@@ -8,7 +8,7 @@
 <a href="/add">Add Message</a>
 
 <div th:each="message : ${messages}">
-    <div th:if="${message.picture}!=7null">
+    <div th:if="${message.picture}!=null">
         <img th:src="${message.picture}"/>
         <hr/>
     </div>
